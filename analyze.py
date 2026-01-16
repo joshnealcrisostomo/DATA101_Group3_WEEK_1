@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # CONFIG (EDIT THIS ONLY)
 # =======================
 
-# class, age, sex, pclass, age_group
+# class, age, sex, pclass, age_group, embarked
 DATASET_URL = "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/titanic.csv"
 CATEGORY_COL = "age_group"
 VALUE_COL = "fare"
