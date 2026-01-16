@@ -1,12 +1,14 @@
-1. Title: Determining the average fare of Titanic passengers
+# Title: Determining the average fare of Titanic passengers
 
 2. Dataset chosen: Titanic (https://raw.githubusercontent.com/mwaskom/seaborn-data/master/penguins.csv)
 
 3. How to run:
+```
 - python3 -m venv .venv
 - source .venv/bin/activate   # Windows: .\.venv\Scripts\Activate.ps1
 - pip install -r requirements.txt
 - python analyze.py
+```
 
 4. What it does:
 - prints dataset summary (rows/cols, columns list, first 5 rows, grouped averages)
